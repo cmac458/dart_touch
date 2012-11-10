@@ -4,6 +4,11 @@ part 'dndEvents.dart';
 
 #library('dart_touch');
 
+class dart_touch {
+  
+  dart_touch(){
+    
+  }
   
   setDragNDropDefault(Element el){
     el.on.dragStart.add(_onDragStart);
@@ -18,5 +23,6 @@ part 'dndEvents.dart';
   
   }
   
+}
 
-
+main(){}

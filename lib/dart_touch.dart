@@ -1,8 +1,10 @@
+library dart_touch;
+
 import 'dart:html';
 
 part 'dndEvents.dart';
 
-#library('dart_touch');
+
 
 class dart_touch {
   
@@ -25,4 +27,3 @@ class dart_touch {
   
 }
 
-main(){}

@@ -1,3 +1,4 @@
+part of dart_touch;
 
 Element _dragSourceEl;
   

@@ -71,6 +71,7 @@ Element _dropTarget;
     var idsrc = dragSource.id;
     
     var targetHTML = dragSource.innerHTML;
+
     dragSource.innerHTML = _dropTarget.innerHTML;
     _dropTarget.innerHTML = targetHTML;
     

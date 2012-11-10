@@ -44,6 +44,7 @@ Element _dragSourceEl;
       // Set the source column's HTML to the HTML of the column we dropped on.
       _dragSourceEl.innerHTML = dropTarget.innerHTML;      
       dropTarget.innerHTML = event.dataTransfer.getData('text/html');
+      dropTarget.classes.remove('over');
     }
   }
   

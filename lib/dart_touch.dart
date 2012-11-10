@@ -4,14 +4,6 @@ import 'dart:html';
 
 part 'dndEvents.dart';
 
-
-
-class dart_touch {
-  
-  dart_touch(){
-    
-  }
-  
   setDragNDropDefault(Element el){
     el.on.dragStart.add(_onDragStart);
     el.on.dragEnd.add(_onDragEnd);
@@ -25,5 +17,5 @@ class dart_touch {
   
   }
   
-}
+
 

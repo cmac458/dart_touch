@@ -7,16 +7,17 @@ This library was created on the 10th November 2012 and is still very young, so p
 
 ## Getting Started
 
+Add the import that points to the folllowing location to the dart code you need to use dart_touch in
 
-
+https://raw.github.com/cmac458/dart_touch/master/lib/dart_touch.dart
 
 ##Versions\Changes
 Still in development phase
 .v1 has yet to be released
 
-
 ## Basic Usage
-
+Check out the blog post here on how to use this library
+[Dart_Touch](http://chmcguir.wordpress.com/2012/11/11/dart-touch/)
 
 ## Authors
 
